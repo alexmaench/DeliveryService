@@ -1,0 +1,48 @@
+# === UNITY GITIGNORE ===
+
+# Carpetas generadas automáticamente
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Para Unity 2020+
+UserSettings/
+*.pidb
+*.booproj
+*.sln
+*.user
+*.userprefs
+*.csproj
+*.unityproj
+
+# Visual Studio Code (si usas)
+.vscode/
+
+# Rider (otro IDE muy usado)
+.idea/
+*.sln.iml
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación
+*.apk
+*.aab
+*.unitypackage
+
+# Otros
+.crashlytics/
+*.symbols.zip
+
+# Plastic SCM (si usas)
+.plastic/
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+.vs/
