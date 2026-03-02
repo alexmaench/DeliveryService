@@ -63,4 +63,9 @@ public class TimeManager : MonoBehaviour
     {
         isRunning = false;
     }
+
+    public float GetRemainingTime()
+    {
+        return remainingTime;
+    }
 }
